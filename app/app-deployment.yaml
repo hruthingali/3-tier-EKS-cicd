@@ -14,16 +14,16 @@ spec:
     spec:
       containers:
       - name: user-app-container
-        image: 047719630685.dkr.ecr.us-east-1.amazonaws.com/app-tier-image:latest
+        image: 557690580165.dkr.ecr.us-east-1.amazonaws.com/app-tier-image:latest
         ports:
         - containerPort: 5000
         env:
         - name: DB_HOST
-          value: "database-3.cotwo8y6mnk3.us-east-1.rds.amazonaws.com"
+          value: "database-1.cluster-chugycug40wd.us-east-1.rds.amazonaws.com"
         - name: DB_USER
           value: "admin"
         - name: DB_PASSWORD
-          value: "adminadmin"
+          value: "password123"
         - name: DB_NAME
           value: "userdb"
 ---

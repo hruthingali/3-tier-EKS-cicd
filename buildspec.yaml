@@ -3,7 +3,7 @@ version: 0.2
 env:
   variables:
     AWS_REGION: us-east-1
-    EKS_CLUSTER_NAME: eks-cluster-last
+    EKS_CLUSTER_NAME: 3-tier-todo
     APP_IMAGE_NAME: app-tier-image
     WEB_IMAGE_NAME: web-tier-image
     ECR_URI: 557690580165.dkr.ecr.us-east-1.amazonaws.com
